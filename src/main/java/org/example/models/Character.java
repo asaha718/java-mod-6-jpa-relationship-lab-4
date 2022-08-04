@@ -18,5 +18,43 @@ public class Character {
     @ManyToOne
     private Show show;
 
+    public int getId() {
+        return id;
+    }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getCatchphrase() {
+        return catchphrase;
+    }
+
+    public void setCatchphrase(String catchphrase) {
+        this.catchphrase = catchphrase;
+    }
+
+    public Actor getActor() {
+        return actor;
+    }
+
+    public void setActor(Actor actor) {
+        this.actor = actor;
+    }
+
+    public Show getShow() {
+        return show;
+    }
+
+    public void setShow(Show show) {
+        this.show = show;
+    }
 }
